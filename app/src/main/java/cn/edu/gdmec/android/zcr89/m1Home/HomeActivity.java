@@ -53,7 +53,7 @@ public class HomeActivity extends AppCompatActivity {
                             showSetUpPswdDialog();
                         }
                         break;
-                    /*case 1://通讯卫士
+                    case 1://通讯卫士
                         //startActivity(SecurityPhoneActivity.class);
                         break;
                     case 2://软件管家
@@ -75,7 +75,7 @@ public class HomeActivity extends AppCompatActivity {
                         break;
                     case 8://设置中心
                         //startActivity(SettingsActivity.class);
-                        break;*/
+                        break;
 
                 }
             }

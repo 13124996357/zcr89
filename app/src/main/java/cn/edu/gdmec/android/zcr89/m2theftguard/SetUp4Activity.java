@@ -1,31 +1,18 @@
 package cn.edu.gdmec.android.zcr89.m2theftguard;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.widget.CompoundButton;
 import android.widget.RadioButton;
+import android.widget.TextView;
+import android.widget.ToggleButton;
 
 import cn.edu.gdmec.android.zcr89.R;
 
 
 public class SetUp4Activity extends BaseSetUpActivity{
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_set_up4);
-        ((RadioButton) findViewById(R.id.rb_four)).setChecked(true);
 
-    }
-
-    @Override
-    public void showNext() {
-        startActivityAndFinishShelf(LostFindActivity.class);
-    }
-
-    @Override
-
-    public void showPre() {
-        startActivityAndFinishShelf(SetUp3Activity.class);
-    }
-   /* private TextView mStatusTV;
+    private TextView mStatusTV;
     private ToggleButton mToggleButton;
 
     @Override
@@ -71,5 +58,5 @@ public class SetUp4Activity extends BaseSetUpActivity{
     @Override
     public void showPre(){
         startActivityAndFinishShelf(SetUp3Activity.class);
-    }*/
+    }
 }
